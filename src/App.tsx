@@ -21,13 +21,13 @@ function App(): JSX.Element {
     dispatch(userLoggedIn(userData));
   }
 
-  const storedFutureBooks = localStorage.getItem("futueBooks");
-  const parsedFutureBooks = storedFutureBooks
-    ? JSON.parse(storedFutureBooks)
-    : {
-        books: [],
-        total: 0,
-      };
+  // const storedFutureBooks = localStorage.getItem("futueBooks");
+  // const parsedFutureBooks = storedFutureBooks
+  //   ? JSON.parse(storedFutureBooks)
+  //   : {
+  //       books: [],
+  //       total: 0,
+  //     };
   dispatch(lStorgeFutureBooks(parsedFutureBooks));
   const storedWishList = localStorage.getItem("wishList");
   const parsedWishList = storedWishList
