@@ -84,7 +84,7 @@ const LoginForm: React.FC = () => {
             onChange={handleChange}
           />
         </div>
-        <div className="relative z-0 w-full mb-6 group">
+        {/* <div className="relative z-0 w-full mb-6 group">
           <Input
             label="Password:"
             name="password"
@@ -94,7 +94,7 @@ const LoginForm: React.FC = () => {
             required
             onChange={handleChange}
           />
-        </div>
+        </div> */}
 
         <div className="gap-x-6 space-x-6">
           <button
